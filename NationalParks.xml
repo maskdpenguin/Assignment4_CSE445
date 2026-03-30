@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NationalParks>
 
-	<!-- Park 1 - assignment example -->
 	<NationalPark Rating="4.9">
 		<Name>Grand Canyon</Name>
 		<Phone>928-638-7496</Phone>
@@ -16,7 +15,7 @@
 		</Address>
 	</NationalPark>
 
-	<!-- Park 2 - one of the least visited national parks -->
+
 	<NationalPark Rating="4.2">
 		<Name>Congaree</Name>
 		<Phone>803-776-4396</Phone>
@@ -29,7 +28,7 @@
 		</Address>
 	</NationalPark>
 
-	<!-- Park 3 - island park in Lake Superior, no Rating since its very remote -->
+
 	<NationalPark Rating="4.7">
 		<Name>Isle Royale</Name>
 		<Phone>906-482-0984</Phone>
@@ -43,7 +42,7 @@
 		</Address>
 	</NationalPark>
 
-	<!-- Park 4 - highest peak in Texas -->
+
 	<NationalPark>
 		<Name>Guadalupe Mountains</Name>
 		<Phone>915-828-3251</Phone>
@@ -56,7 +55,7 @@
 		</Address>
 	</NationalPark>
 
-	<!-- Park 5 - the national park in Ohio -->
+
 	<NationalPark Rating="4.5">
 		<Name>Cuyahoga Valley</Name>
 		<Phone>330-657-2752</Phone>
@@ -70,7 +69,7 @@
 		</Address>
 	</NationalPark>
 
-	<!-- Park 6 - I found the newest national park, designated in 2020 -->
+
 	<NationalPark>
 		<Name>New River Gorge</Name>
 		<Phone>304-465-0508</Phone>
@@ -83,7 +82,7 @@
 		</Address>
 	</NationalPark>
 
-	<!-- Park 7 - volcanic rock formations in central California -->
+
 	<NationalPark Rating="4.4">
 		<Name>Pinnacles</Name>
 		<Phone>831-389-4486</Phone>
@@ -97,7 +96,7 @@
 		</Address>
 	</NationalPark>
 
-	<!-- Park 8 - one of the steepest canyons in the US -->
+
 	<NationalPark>
 		<Name>Black Canyon of the Gunnison</Name>
 		<Phone>970-641-2337</Phone>
@@ -110,7 +109,7 @@
 		</Address>
 	</NationalPark>
 
-	<!-- Park 9 - only reachable by boat or seaplane -->
+
 	<NationalPark Rating="4.8">
 		<Name>Dry Tortugas</Name>
 		<Phone>305-242-7700</Phone>
@@ -124,7 +123,7 @@
 		</Address>
 	</NationalPark>
 
-	<!-- Park 10 - remote Washington park with almost no visitors -->
+
 	<NationalPark Rating="4.6">
 		<Name>North Cascades</Name>
 		<Phone>360-854-7200</Phone>
@@ -137,7 +136,7 @@
 		</Address>
 	</NationalPark>
 
-	<!-- Park 11 - I founf this in the middle of Nevada, one of the quietest parks -->
+
 	<NationalPark>
 		<Name>Great Basin</Name>
 		<Phone>775-234-7331</Phone>
