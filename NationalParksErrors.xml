@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- root should be NationalParks but I changed it to NationalPark here - error 1 -->
-<NationalPark>
+<NationalPark xmlns="http://www.example.com/NationalParks"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://www.example.com/NationalParks https://maskdpenguin.github.io/Assignment4_CSE445/NationalParks.xsd">
 
 	<NationalPark Rating="4.9">
 		<Name>Grand Canyon</Name>
