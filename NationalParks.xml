@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NationalParks>
+
+	<!-- Park 1 - assignment example -->
+	<NationalPark Rating="4.9">
+		<Name>Grand Canyon</Name>
+		<Phone>928-638-7496</Phone>
+		<Phone>888-297-2757</Phone>
+		<Phone>866-499-2574</Phone>
+		<Address NearestAirport="Flagstaff Pulliam">
+			<Number>8</Number>
+			<Street>S Entrance Road</Street>
+			<City>Grand Canyon</City>
+			<State>AZ</State>
+			<Zip>86023</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Park 2 - one of the least visited national parks -->
+	<NationalPark Rating="4.2">
+		<Name>Congaree</Name>
+		<Phone>803-776-4396</Phone>
+		<Address NearestAirport="Columbia Metropolitan">
+			<Number>100</Number>
+			<Street>National Park Road</Street>
+			<City>Hopkins</City>
+			<State>SC</State>
+			<Zip>29061</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Park 3 - island park in Lake Superior, no Rating since its very remote -->
+	<NationalPark Rating="4.7">
+		<Name>Isle Royale</Name>
+		<Phone>906-482-0984</Phone>
+		<Phone>906-289-4215</Phone>
+		<Address NearestAirport="Houghton County Memorial">
+			<Number>800</Number>
+			<Street>E Lakeshore Drive</Street>
+			<City>Houghton</City>
+			<State>MI</State>
+			<Zip>49931</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Park 4 - highest peak in Texas -->
+	<NationalPark>
+		<Name>Guadalupe Mountains</Name>
+		<Phone>915-828-3251</Phone>
+		<Address NearestAirport="El Paso International">
+			<Number>400</Number>
+			<Street>Pine Springs Road</Street>
+			<City>Salt Flat</City>
+			<State>TX</State>
+			<Zip>79847</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Park 5 - the national park in Ohio -->
+	<NationalPark Rating="4.5">
+		<Name>Cuyahoga Valley</Name>
+		<Phone>330-657-2752</Phone>
+		<Phone>330-657-2909</Phone>
+		<Address NearestAirport="Cleveland Hopkins International">
+			<Number>15610</Number>
+			<Street>Vaughn Road</Street>
+			<City>Brecksville</City>
+			<State>OH</State>
+			<Zip>44141</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Park 6 - I found the newest national park, designated in 2020 -->
+	<NationalPark>
+		<Name>New River Gorge</Name>
+		<Phone>304-465-0508</Phone>
+		<Address NearestAirport="Yeager Airport">
+			<Number>104</Number>
+			<Street>Main Street</Street>
+			<City>Glen Jean</City>
+			<State>WV</State>
+			<Zip>25846</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Park 7 - volcanic rock formations in central California -->
+	<NationalPark Rating="4.4">
+		<Name>Pinnacles</Name>
+		<Phone>831-389-4486</Phone>
+		<Phone>831-389-4427</Phone>
+		<Address NearestAirport="Monterey Regional">
+			<Number>5000</Number>
+			<Street>Highway 146</Street>
+			<City>Paicines</City>
+			<State>CA</State>
+			<Zip>95043</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Park 8 - one of the steepest canyons in the US -->
+	<NationalPark>
+		<Name>Black Canyon of the Gunnison</Name>
+		<Phone>970-641-2337</Phone>
+		<Address NearestAirport="Gunnison-Crested Butte Regional">
+			<Number>102</Number>
+			<Street>Elk Creek</Street>
+			<City>Gunnison</City>
+			<State>CO</State>
+			<Zip>81230</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Park 9 - only reachable by boat or seaplane -->
+	<NationalPark Rating="4.8">
+		<Name>Dry Tortugas</Name>
+		<Phone>305-242-7700</Phone>
+		<Phone>305-242-7720</Phone>
+		<Address NearestAirport="Key West International">
+			<Number>40001</Number>
+			<Street>SR-9336</Street>
+			<City>Homestead</City>
+			<State>FL</State>
+			<Zip>33034</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Park 10 - remote Washington park with almost no visitors -->
+	<NationalPark Rating="4.6">
+		<Name>North Cascades</Name>
+		<Phone>360-854-7200</Phone>
+		<Address NearestAirport="Bellingham International">
+			<Number>810</Number>
+			<Street>State Route 20</Street>
+			<City>Sedro-Woolley</City>
+			<State>WA</State>
+			<Zip>98284</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Park 11 - I founf this in the middle of Nevada, one of the quietest parks -->
+	<NationalPark>
+		<Name>Great Basin</Name>
+		<Phone>775-234-7331</Phone>
+		<Phone>775-234-7517</Phone>
+		<Address NearestAirport="Ely Airport">
+			<Number>100</Number>
+			<Street>Great Basin National Park Road</Street>
+			<City>Baker</City>
+			<State>NV</State>
+			<Zip>89311</Zip>
+		</Address>
+	</NationalPark>
+
+</NationalParks>

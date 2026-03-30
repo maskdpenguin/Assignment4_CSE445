@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- root should be NationalParks but I changed it to NationalPark here - error 1 -->
+<NationalPark>
+
+	<NationalPark Rating="4.9">
+		<Name>Grand Canyon</Name>
+		<Phone>928-638-7496</Phone>
+		<Phone>888-297-2757</Phone>
+		<Phone>866-499-2574</Phone>
+		<Address NearestAirport="Flagstaff Pulliam">
+			<Number>8</Number>
+			<Street>S Entrance Road</Street>
+			<City>Grand Canyon</City>
+			<State>AZ</State>
+			<Zip>86023</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- missing NearestAirport on this one - error 2 -->
+	<NationalPark Rating="4.2">
+		<Name>Congaree</Name>
+		<Phone>803-776-4396</Phone>
+		<Address>
+			<Number>100</Number>
+			<Street>National Park Road</Street>
+			<City>Hopkins</City>
+			<State>SC</State>
+			<Zip>29061</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- no phone number listed - error 3 -->
+	<NationalPark>
+		<Name>Guadalupe Mountains</Name>
+		<Address NearestAirport="El Paso International">
+			<Number>400</Number>
+			<Street>Pine Springs Road</Street>
+			<City>Salt Flat</City>
+			<State>TX</State>
+			<Zip>79847</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- two names given for this park - error 5 -->
+	<NationalPark Rating="4.5">
+		<Name>Cuyahoga Valley</Name>
+		<Name>Cuyahoga Valley National Park</Name>
+		<Phone>330-657-2752</Phone>
+		<Address NearestAirport="Cleveland Hopkins International">
+			<Number>15610</Number>
+			<Street>Vaughn Road</Street>
+			<City>Brecksville</City>
+			<State>OH</State>
+			<Zip>44141</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- Address tag never closed - error 4 -->
+	<NationalPark Rating="4.4">
+		<Name>Pinnacles</Name>
+		<Phone>831-389-4486</Phone>
+		<Address NearestAirport="Monterey Regional">
+			<Number>5000</Number>
+			<Street>Highway 146</Street>
+			<City>Paicines</City>
+			<State>CA</State>
+			<Zip>95043</Zip>
+		</NationalPark>
+
+</NationalPark>
